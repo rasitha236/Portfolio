@@ -147,6 +147,13 @@ p {
     transform: translateY(-5px);
   }
   
+  .certificates-list {
+    list-style: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+  }
+  
+
   /* Contact */
   #contact p {
     margin-bottom: 1rem;
@@ -173,4 +180,3 @@ p {
       text-align: center;
     }
   }
-  
