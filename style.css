@@ -119,13 +119,30 @@
   }
   
   .project-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease;
+     font-family: Arial, sans-serif; /* Sets the font */
+    padding: 20px; /* Adds padding around the content */
+    border: 1px solid #ddd; /* Adds a subtle border around the card */
+    margin: 20px; /* Adds margin around the card */
+    background-color: #f9f9f9; /* Light background color */
+    width: 80%; /* Limits the width of the card */
+    max-width: 800px; /* Ensures it doesn't stretch too wide */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds some subtle shadow */
   }
-  
+
+ h3 {
+    font-size: 1.5em; /* Increases the font size for headings */
+    margin-bottom: 10px; /* Adds space below the heading */
+  }
+
+p {
+    font-size: 1em; /* Sets a comfortable size for the paragraphs */
+    line-height: 1.6; /* Increases the line height for readability */
+    color: #333; /* Darker text color for better contrast */
+  }
+
+ br {
+    margin-bottom: 20px; /* Adds space after each project */
+  }
   .project-card:hover {
     transform: translateY(-5px);
   }
