@@ -45,6 +45,16 @@
     font-weight: 600;
     color: #007acc;
   }
+
+  #about img {
+  width: 150px;            /* Set a fixed width */
+  height: 150px;           /* Set a fixed height to make it square */
+  border-radius: 50%;      /* Makes the image circular */
+  object-fit: cover;       /* Ensures the image covers the area without stretching */
+  margin-bottom: 20px;     /* Add some space below the image */
+  border: 4px solid #ddd;  /* Optional: adds a border around the image */
+ }
+
   
   .nav-links {
     list-style: none;
